@@ -1,0 +1,168 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+/* Estilo Barra de Navegacion */
+
+.navbar {
+
+    background-color: rgb(241, 241, 67);
+
+}
+
+.navbar-brand {
+
+    background-color: white;
+    border: 2px outset black;
+    border-radius: 20px;
+}
+
+.nav-item a {
+
+    text-decoration: none;
+    padding: 0.7em;
+    color: black;
+}
+
+.nav-item a:hover {
+
+    background-color: rgb(167, 166, 166);
+    color: white;
+    border-radius: 20px;
+}
+
+.d-flex button {
+
+    border-bottom-color: black;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.d-flex button:hover {
+
+    border-bottom-color: black;
+    border: 2px solid black;
+    background-color: rgb(187, 180, 180);
+    color: black;
+}
+
+
+@media(max-width: 991px) {
+    
+    .nav-item a:hover {
+
+        color:black;
+        padding: 0px;
+        background-color:rgba(255, 255, 255, 0);
+        transition: 1s;
+    } 
+
+
+}
+
+/* Estilo Presentacion Productos */
+
+.contenedor img {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+.contenedor>div{
+
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #f8ea20;
+    border-radius: 18px;
+}
+
+.contenedor>div:hover{
+
+    transform: scale(1.2);
+}
+
+.informacion{
+
+    width: 120px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.informacion>p:first-child{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.informacion .precio {
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.informacion .precio span{
+
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.informacion button{
+
+    background-color: #ffffff;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.informacion button:hover{
+
+    color: #ffffff;
+    background-color: #7a9692;
+}
+
+.text-center a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.Iconos {
+
+    width: 50px;
+}
+
+footer {
+
+    color: white;
+    background-color: rgb(53, 58, 61);
+}
+footer p {
+
+    padding: 30px;
+}
+
+footer img {
+
+    padding: 10px;
+}
